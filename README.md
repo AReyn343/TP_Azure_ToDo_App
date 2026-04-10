@@ -179,6 +179,7 @@ Elle permet :
 
     -   Microsoft.ContainerRegistry
     -   Microsoft.DocumentDB
+    -   Microsoft.KeyVault
     -   Microsoft.Storage
 
 -   Certaines attributions RBAC via Azure CLI ont échoué dans la
