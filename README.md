@@ -161,11 +161,14 @@ production afin de tester avant mise en production.
 
 ## Managed Identity
 
-Une identité managée système est activée sur : - l'App Service de
-production - le slot staging
+Une identité managée système est activée sur : 
+- l'App Service de
+production
+- le slot staging
 
-Elle permet : - l'accès à Azure Container Registry (AcrPull) - la
-lecture des secrets du Key Vault
+Elle permet : 
+- l'accès à Azure Container Registry (AcrPull)
+- la lecture des secrets du Key Vault
 
 ------------------------------------------------------------------------
 
