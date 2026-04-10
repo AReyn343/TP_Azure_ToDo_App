@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azure TODO App</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="header">
+        <div>
+          <h1 id="appTitle">Azure TODO App</h1>
+          <p class="subtitle">Application simple prête pour Docker, Cosmos DB, Key Vault et Blob Storage.</p>
+        </div>
+        <span id="dataModeBadge" class="badge">mode</span>
+      </div>
+
+      <div class="secret-box">
+        <strong>Message de configuration :</strong>
+        <span id="configMessage">Chargement...</span>
+      </div>
+
+      <form id="taskForm" class="task-form">
+        <input id="taskInput" type="text" placeholder="Ajouter une tâche" maxlength="120" required />
+        <button type="submit">Ajouter</button>
+      </form>
+
+      <div class="actions">
+        <button id="refreshBtn" class="secondary">Rafraîchir</button>
+        <button id="exportBtn" class="secondary">Exporter en JSON</button>
+      </div>
+
+      <div id="status" class="status"></div>
+
+      <ul id="taskList" class="task-list"></ul>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
